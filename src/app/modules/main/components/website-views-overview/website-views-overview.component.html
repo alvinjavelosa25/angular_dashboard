@@ -1,0 +1,13 @@
+<mat-card class="website-views">
+  <!-- Place your chart code here using data weeklyWebsiteViews -->
+  <div class="chart-container" style="position: relative">
+    <canvas  id="MyChart" >{{ chart }}</canvas>
+  </div>
+  <mat-card-header>
+    <mat-card-title class="medium-text">Website Views</mat-card-title>
+    <mat-card-subtitle class="light-text small-text light-color-text">Last Campaign Performance</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <span class="light-text small-text light-color-text"><mat-icon>schedule</mat-icon> campaign sent {{ lastCampaignDate | dateAgo }}</span> 
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,105 @@
+[
+  {
+    "title": "Material XD Version",
+    "companyIcon": "logo-xd.svg",
+    "budget": 14000,
+    "progressPercentage": 60,
+    "members": [
+      {
+        "name": "Ryan Tompson",
+        "avatar": "team-1.jpg"
+      },
+      {
+        "name": "Romina Hadid",
+        "avatar": "team-2.jpg"
+      },
+      {
+        "name": "Alexander Smith",
+        "avatar": "team-3.jpg"
+      },
+      {
+        "name": "Jessica Doe",
+        "avatar": "team-4.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Add Progress Track",
+    "companyIcon": "logo-atlassian.svg",
+    "budget": 3000,
+    "progressPercentage": 10,
+    "members": [
+      {
+        "name": "Romina Hadid",
+        "avatar": "team-2.jpg"
+      },
+      {
+        "name": "Jessica Doe",
+        "avatar": "team-4.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Fix Platform Errors",
+    "companyIcon": "logo-slack.svg",
+    "progressPercentage": 100,
+    "members": [
+      {
+        "name": "Ryan Tompson",
+        "avatar": "team-1.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Launch our Mobile App",
+    "companyIcon": "logo-spotify.svg",
+    "budget": 20500,
+    "progressPercentage": 100,
+    "members": [
+      {
+        "name": "Ryan Tompson",
+        "avatar": "team-1.jpg"
+      },
+      {
+        "name": "Romina Hadid",
+        "avatar": "team-2.jpg"
+      },
+      {
+        "name": "Alexander Smith",
+        "avatar": "team-3.jpg"
+      },
+      {
+        "name": "Jessica Doe",
+        "avatar": "team-4.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Add the New Pricing Page",
+    "companyIcon": "logo-jira.svg",
+    "budget": 500,
+    "progressPercentage": 25,
+    "members": [
+      {
+        "name": "Jessica Doe",
+        "avatar": "team-4.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Redesign New Online Shop",
+    "companyIcon": "logo-invision.svg",
+    "budget": 2000,
+    "progressPercentage": 40,
+    "members": [
+      {
+        "name": "Ryan Tompson",
+        "avatar": "team-1.jpg"
+      },
+      {
+        "name": "Jessica Doe",
+        "avatar": "team-4.jpg"
+      }
+    ]
+  }
+]

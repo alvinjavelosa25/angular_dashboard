@@ -1,0 +1,33 @@
+{
+  "lastCampaignDate": "2023-12-22",
+  "weeklyWebsiteViews": [
+    {
+      "date": "2023-12-18",
+      "viewCount": 50
+    },
+    {
+      "date": "2023-12-19",
+      "viewCount": 20
+    },
+    {
+      "date": "2023-12-20",
+      "viewCount": 10
+    },
+    {
+      "date": "2023-12-21",
+      "viewCount": 22
+    },
+    {
+      "date": "2023-12-22",
+      "viewCount": 50
+    },
+    {
+      "date": "2023-12-23",
+      "viewCount": 10
+    },
+    {
+      "date": "2023-12-24",
+      "viewCount": 40
+    }
+  ]
+}

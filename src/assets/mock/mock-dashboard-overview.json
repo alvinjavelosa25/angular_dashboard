@@ -1,0 +1,43 @@
+[
+{
+  "typeName": "Today's Money",
+  "typeIcon": "weekend",
+  "typeColor": "black",
+  "showDollarSign": true,
+  "value": 53000,
+  "deltaPercent": 55,
+  "deltaPeriod": "weekly",
+  "order": 1
+},
+{
+  "typeName": "Today's Users",
+  "typeIcon": "person",
+  "typeColor": "pink",
+  "showDollarSign": false,
+  "value": 2300,
+  "deltaPercent": 3,
+  "deltaPeriod": "monthly",
+  "order": 2
+},
+{
+  "typeName": "New Clients",
+  "typeIcon": "person",
+  "typeColor": "green",
+  "showDollarSign": false,
+  "value": 3462,
+  "deltaPercent": -2,
+  "deltaPeriod": "daily",
+  "order": 3
+},
+
+{
+  "typeName": "Sales",
+  "typeIcon": "weekend",
+  "typeColor": "blue",
+  "showDollarSign": true,
+  "value": 103430,
+  "deltaPercent": 5,
+  "deltaPeriod": "daily",
+  "order": 4
+}
+]

@@ -1,0 +1,18 @@
+<div class="dashboard-overview">
+  <ng-container  *ngFor="let overview of dashboardOverview | async">
+    <mat-card >
+      <mat-card-header>
+        <div mat-card-avatar [ngClass]="overview.typeColor"><mat-icon>{{ overview.typeIcon }}</mat-icon></div>
+        <mat-card-title class="light-text small-text light-color-text">{{ overview.typeName }}</mat-card-title>
+        <mat-card-subtitle class="bold-text dark-text large-text">{{ overview.showDollarSign ? '$' : '' }}{{ overview.value | number_ }}</mat-card-subtitle>
+      </mat-card-header>
+      <hr>
+      <mat-card-content class="light-color-text">
+       <span 
+        class="bold-text {{overview.deltaPercent > 0 ? 'positive' : 'negative'}}">
+          {{ overview.deltaPercent > 0 ? '+' : ''}}{{ overview.deltaPercent }}% 
+        </span>{{ overview.deltaPeriod |  period }}
+      </mat-card-content>
+    </mat-card>
+  </ng-container>  
+</div>

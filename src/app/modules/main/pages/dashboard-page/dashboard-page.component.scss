@@ -1,0 +1,11 @@
+.charts-container {
+  display: flex;
+  gap: 20px;
+  margin-left: 5px;
+  margin-top: 40px;
+  .chart {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+  }
+}

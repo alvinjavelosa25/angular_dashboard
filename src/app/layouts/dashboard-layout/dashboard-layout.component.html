@@ -1,0 +1,90 @@
+<div class="dashboard-layout-container">
+  <mat-drawer-container class="dashboard-layout">
+    <mat-drawer mode="side" opened class="side-bar">
+      <div class="sidebar-title">App Dashboard</div>
+      <div class="nav-list-container">
+        <mat-nav-list>
+          <a mat-list-item routerLink="dashboard" routerLinkActive="active-link">
+            <mat-icon matListItemIcon>dashboard</mat-icon>
+            <div matListItemTitle>Dashboard</div>
+          </a>
+          <a mat-list-item routerLink="tables" routerLinkActive="active-link">
+            <mat-icon matListItemIcon>table_view</mat-icon>
+            <div matListItemTitle>Tables</div>
+          </a>
+          <a mat-list-item routerLink="billing" routerLinkActive="active-link">
+            <mat-icon matListItemIcon>receipt_long</mat-icon>
+            <div matListItemTitle>Billing</div>
+          </a>
+          <a mat-list-item routerLink="notifications" routerLinkActive="active-link">
+            <mat-icon matListItemIcon>notifications</mat-icon>
+            <div matListItemTitle>Notifications</div>
+          </a>
+        </mat-nav-list>
+        <h2>Account pages</h2>
+        <mat-nav-list>
+          <a mat-list-item routerLink="profile" routerLinkActive="active-link">
+            <mat-icon matListItemIcon>person</mat-icon>
+            <div matListItemTitle>Profile</div>
+          </a>
+          <a mat-list-item routerLink="login" routerLinkActive="active-link">
+            <mat-icon matListItemIcon>login</mat-icon>
+            <div matListItemTitle>Sign In</div>
+          </a>
+          <a mat-list-item routerLink="signup" routerLinkActive="active-link">
+            <mat-icon matListItemIcon>assignment</mat-icon>
+            <div matListItemTitle>Sign Up</div>
+          </a>
+        </mat-nav-list>
+      </div>
+      
+      <div class="sidebar-info">
+        <div class="doc">
+          <button mat-stroked-button>DOCUMENTATION</button>
+        </div>
+        <div class="upgrade">
+          <button mat-flat-button>UPGRADE TO PRO</button>
+        </div>
+      </div>
+    </mat-drawer>
+    <mat-drawer-content>
+      <mat-toolbar>
+        <div>
+          <small><span>Pages</span> / <a>Dashboard</a></small>
+          <h1 class="medium-text bold-text">Dashboard</h1>
+        </div>
+        
+        <div class="right-top">
+          <div>
+            <button mat-stroked-button class="pink-border-btn">ONLINE BUILDER</button>
+          </div>
+          <div class="favorites">
+            <span>
+              <mat-icon>star_outline</mat-icon>
+              Star
+            </span>
+            <span class="stars-count">10,828</span>
+          </div>
+          <div class="settings-btn">
+            <button mat-icon-button>
+              <mat-icon>settings</mat-icon>
+            </button>
+          </div>
+          <div class="notification-btn">
+            <button mat-icon-button>
+              <mat-icon>notifications</mat-icon>
+            </button>
+          </div>
+          <div class="login-btn">
+            <button mat-button>
+              <mat-icon>person</mat-icon>
+              Sign In
+            </button>
+          </div>
+        </div>
+
+      </mat-toolbar>
+      <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>  
+</div>

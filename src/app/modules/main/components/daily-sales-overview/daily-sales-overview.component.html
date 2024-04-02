@@ -1,0 +1,16 @@
+<mat-card class="daily-sales">
+  <!-- Place your chart code here using data monthlySales -->
+  <div class="chart-container">
+    <canvas  id="DailySalesChart" >{{ salesChart }}</canvas>
+  </div>
+  <mat-card-header>
+    <mat-card-title class="medium-text">Daily Sales</mat-card-title>
+    <mat-card-subtitle class="light-text small-text light-color-text">
+      (<span class="bold-text">
+        {{this.dailySalesDeltaPercent > 0 ? '+' + this.dailySalesDeltaPercent : '-' + this.dailySalesDeltaPercent}}%</span> ) {{ deltaDetails }}
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="light-text small-text light-color-text"><mat-icon>schedule</mat-icon> updated  {{ lastUpdatedDate | dateAgo }}</div> 
+  </mat-card-content>
+</mat-card>

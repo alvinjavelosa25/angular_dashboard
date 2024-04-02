@@ -1,0 +1,63 @@
+@import './src/styles.scss';
+
+.projects-overview {
+  .mat-mdc-card {
+    box-shadow: 0 2px 5px #d5d6d9;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+    .mat-mdc-card-content { padding: 0; }
+    .mat-mdc-card-subtitle .mat-icon {
+      font-size: 18px;
+      height: 18px;
+      width: 18px;
+      vertical-align: text-bottom;
+      color: #1a73e8;
+      margin-right: 5px;
+    }
+    .mat-mdc-table {
+      box-shadow: none;
+      background: none;
+      margin-top: 10px;
+      th, td {
+        border-bottom-color: #f0f2f5;
+      }
+      th {
+        color: #a2a6b8;
+        font-size: 10px;
+      }
+      .logos {
+        height: 27px;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      .avatar {
+        border-radius: 50%;
+        height: 20px;
+        border: 1px solid #fff;
+        cursor: pointer;
+        &:not(:first-of-type) { margin-left: -10px; }
+      }
+      .mdc-linear-progress__buffer-bar {
+        background-color: #f0f2f5;
+      }
+      .mdc-linear-progress__bar-inner {
+        border-color: #2079e9;
+      }
+      .complete .mdc-linear-progress__bar-inner { border-color: #4fa953; }
+      .mat-column-budget {
+        text-align: center;
+        padding-left: 30px;
+      }
+      .mat-column-progressPercentage {
+        text-align: center;
+        &.mat-mdc-cell {
+          text-align: left;
+          .mat-mdc-progress-bar {
+            width: 120px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import './src/styles.scss';
+
+.website-views {
+  box-shadow: 0 2px 5px #d5d6d9;
+  border-radius: 10px;
+  #MyChart {
+    background: $pink-gradient;
+    box-shadow: 0 5px 10px #bcbcbc;
+    border-radius: 10px;
+    margin: -20px 16px 0px;
+    height: 180px !important;
+  }
+  .mat-mdc-card-content .mat-icon {
+    font-size: 13px;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+  }
+}
