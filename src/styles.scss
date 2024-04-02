@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+$black-gradient: linear-gradient(4deg, rgba(33,33,35,1) 0%, rgba(52,52,57,1) 67%, rgba(65,65,73,1) 100%);
+$pink-gradient: linear-gradient(0deg, rgba(218,31,98,1) 0%, rgba(228,49,111,1) 100%);
+$green-gradient: linear-gradient(0deg, rgba(71,163,75,1) 0%, rgba(73,164,77,1) 44%, rgba(92,179,96,1) 100%);
+$blue-gradient: linear-gradient(0deg, rgba(30,119,233,1) 0%, rgba(48,137,236,1) 51%, rgba(69,159,240,1) 100%);
+
+$pink: #e91e63;
+$lightgray: #f0f2f5;
+$darkgray: #7b809a;
+$darkblue: #344767;
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+  .light-text { font-weight: 300 }
+  .bold-text { font-weight: 500 }
+  .bolder-text { font-weight: 600 }
+  .small-text { font-size: 13px; }
+  .medium-text { font-size: 14px; }
+  .large-text { font-size: 22px; }
+  .smaller-text { font-size: 11px; }
+  .dark-text { color: $darkblue; }
+  .light-color-text { color: $darkgray; }
+}
