@@ -1,5 +1,7 @@
 # Angular Dashboard
 
+This project was generated with Angular CLI version 16.2.1.
+
 ## Development server
 
 Run `npm install` to install dependencies.
